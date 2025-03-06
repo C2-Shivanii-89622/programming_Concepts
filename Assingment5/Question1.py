@@ -1,0 +1,10 @@
+people={'Lisa':'Yellow','Vinod':'Purple','Jenny':'Pink','Arham':'Blue'}
+print(people)
+num = len(people)
+print(num)
+people['Lisa'] = input("Entre and Update Lisa's fav colour ")
+print(people)
+people.pop("Jenny")
+print(people)
+sorted_dict_by_keys = (sorted(people.items()))
+print(sorted_dict_by_keys)
