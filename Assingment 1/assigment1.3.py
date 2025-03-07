@@ -15,3 +15,5 @@ to_display_placevalue(num)
 def Print_Rev_num(str):
     print(f"{str[3]}{str[2]}{str[1]}{str[0]}")   
 
+Print_Rev_num(num)
+
